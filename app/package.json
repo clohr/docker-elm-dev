@@ -1,0 +1,19 @@
+{
+  "name": "elm-dev-client",
+  "version": "1.0.0",
+  "description": "Elm client development environment",
+  "license": "BSD3",
+  "scripts": {
+    "install-app": "npm i && ./node_modules/.bin/elm-package install -y",
+    "build": "./node_modules/.bin/elm-make src/Main.elm --output=assets/app.js",
+    "start": "./node_modules/.bin/elm-live src/Main.elm --output=assets/app.js --pushstate --open"
+  },
+  "author": "Christian Lohr<christian.lohr@gmail.com>",
+  "devDependencies": {
+    "elm-live": "^2.7.5",
+    "json-server": "^0.12.1"
+  },
+  "dependencies": {
+    "elm": "^0.18.0"
+  }
+}
