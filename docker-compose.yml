@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  api:
+    build: ./api
+    volumes: 
+      - ./api:/usr/src/api
+    ports:
+      - 3000:80
+  app:
+    build: ./app
+    volumes: 
+      - ./app:/usr/src/app
+    ports:
+      - 8080:80

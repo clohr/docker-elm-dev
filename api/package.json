@@ -1,0 +1,14 @@
+{
+  "name": "elm-dev-api",
+  "version": "1.0.0",
+  "description": "Elm API development environment",
+  "license": "BSD3",
+  "scripts": {
+    "install-api": "npm i",
+    "start": "./node_modules/.bin/json-server --watch ./db.json"
+  },
+  "author": "Christian Lohr<christian.lohr@gmail.com>",
+  "devDependencies": {
+    "json-server": "^0.12.1"
+  }
+}
