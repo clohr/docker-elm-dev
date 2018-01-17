@@ -5,11 +5,15 @@ services:
     build: ./api
     volumes: 
       - ./api:/usr/src/api
+      - /usr/src/api/node_modules
     ports:
-      - 3000:80
+      - 3000:3000
   app:
     build: ./app
     volumes: 
       - ./app:/usr/src/app
+      - /usr/src/app/elm-stuff
+      - /usr/src/app/node_modules
     ports:
-      - 8080:80
+      - 8000:8000
+      - 35729:35729

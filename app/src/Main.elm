@@ -73,7 +73,7 @@ page model =
 homeView : Html msg
 homeView =
     div []
-        [ text "Home"
+        [ text "Homey"
         ]
 
 
