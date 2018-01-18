@@ -17,3 +17,5 @@ services:
     ports:
       - 8000:8000
       - 35729:35729
+    depends_on:
+      - api

@@ -9565,7 +9565,7 @@ var _user$project$Main$homeView = A2(
 	{ctor: '[]'},
 	{
 		ctor: '::',
-		_0: _elm_lang$html$Html$text('Homey'),
+		_0: _elm_lang$html$Html$text('Hey, Homey!'),
 		_1: {ctor: '[]'}
 	});
 var _user$project$Main$page = function (model) {
