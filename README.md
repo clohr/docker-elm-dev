@@ -4,6 +4,7 @@ The goal of this project is to create a basic Elm boilerplate development using 
 
 ## Pre-Requisites
 * [Docker](https://www.docker.com/get-docker)
+* [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Start
 * `docker-compose up`
